@@ -1,0 +1,5 @@
+plaid-python==15.5.0
+python-dotenv==0.15.0
+fastapi==0.101.0
+uvicorn==0.23.2
+pydantic==2.3.0

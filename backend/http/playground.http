@@ -1,0 +1,20 @@
+GET http://localhost:5000/
+
+###
+POST http://localhost:5000/create_sandbox_public_token
+Content-Type: application/json
+
+###
+POST http://localhost:5000/exchange_public_token
+Content-Type: application/json
+
+{
+    "public_token": "public-sandbox-029a4edb-f940-416c-bb03-917fc5d622b4"
+}
+
+###
+GET http://localhost:5000/transactions
+
+{
+  "access_token": "access-sandbox-649bd489-5eca-4451-b8f9-837883688c6d"
+}
